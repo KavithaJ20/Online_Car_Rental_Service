@@ -1,8 +1,7 @@
-# Online_Car_Rental_Service
+ Car Rental Web Application (Django)
 
-🚗 Drive Wheels – Car Rental Web Application (Django)
+Car Rental Web application is a full-stack car rental web application built using Django. The project allows users to browse available cars, filter them based on preferences, book vehicles for a selected duration, and complete payments securely using Razorpay. It also includes user authentication, reviews, and an admin dashboard for management.
 
-Drive Wheels is a full-stack car rental web application built using Django. The project allows users to browse available cars, filter them based on preferences, book vehicles for a selected duration, and complete payments securely using Razorpay. It also includes user authentication, reviews, and an admin dashboard for management.
 
 🔑 Key Features
 
@@ -16,6 +15,7 @@ Drive Wheels is a full-stack car rental web application built using Django. The 
 
 -View available cars
 
+
 Filter cars by:
 
 -Fuel type
@@ -28,39 +28,41 @@ Filter cars by:
 
 -Sort cars by price (low to high / high to low)
 
+
 Car Booking System
 
-Select car, date & time, and rental hours
+-Select car, date & time, and rental hours
 
-Automatic total rent calculation
+-Automatic total rent calculation
 
-Booking history for logged-in users
+-Booking history for logged-in users
 
-Online Payment Integration
+-Online Payment Integration
 
-Razorpay payment gateway integration
+-Razorpay payment gateway integration
 
-Secure payment verification
+-Secure payment verification
 
-Payment status tracking (Paid / Pending)
+-Payment status tracking (Paid / Pending)
 
-Customer Reviews
+-Customer Reviews
 
-Users can submit ratings and reviews
+-Users can submit ratings and reviews
 
-Reviews displayed on the About Us page
+-Reviews displayed on the About Us page
 
-Contact Form
+-Contact Form
 
-Users can send queries or feedback
+-Users can send queries or feedback
 
-Stored securely in the database
+-Stored securely in the database
 
-Admin Panel
+-Admin Panel
 
-Manage cars, bookings, users, contacts, and reviews
+-Manage cars, bookings, users, contacts, and reviews
 
-View payment details and booking status
+-View payment details and booking status
+
 
 🛠️ Technologies Used
 
@@ -76,6 +78,7 @@ Authentication: Django Auth System
 
 ORM: Django ORM
 
+
 📂 Project Structure Overview
 
 views.py – Handles business logic and request/response flow
@@ -87,6 +90,7 @@ admin.py – Admin panel configurations
 templates/ – HTML templates
 
 static/ – CSS, JS, images
+
 
 🎯 Purpose of the Project
 
@@ -100,16 +104,17 @@ This project is designed to demonstrate:
 
 -Scalable backend design for rental platforms
 
--It is suitable for academic projects, learning Django, and portfolio showcase.
+It is suitable for academic projects, learning Django, and portfolio showcase.
+
 
 📌 Future Enhancements
 
-Email notifications for bookings
+-Email notifications for bookings
 
-Booking cancellation & refunds
+-Booking cancellation & refunds
 
-Car availability calendar
+-Car availability calendar
 
-API support for mobile apps
+A-PI support for mobile apps
 
-Role-based admin access
+-Role-based admin access
